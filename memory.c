@@ -10,7 +10,7 @@ int a = (RC0 * z); //Input 1
 int b = (RC1 * z); //Input 2
 int c = (RC2 * z); //Input 3
 int d = (RC3 * z); //Input 4
-int x = 0;
+int x = 0; //
 
 //8 Byte memory
 //Stores 8 4-Bit numbers
