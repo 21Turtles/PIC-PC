@@ -1,17 +1,18 @@
-#include <16F628A.h>
-#use delay(clock=4000000)
-#fuses NOWDT, HS, PUT, NOPROTECT, BROWNOUT, MCLR, NOLVP, NOCPD
+#include <16F887.h>
+#pragma config FOSC = HS
+#define _XTAL_FREQ 7372800
+
 void main(void)
 {
- setup_comparator(NC_NC_NC_NC);
- setup_vref(FALSE);
- set_tris_b(0b11111110);
- 
- while( 1 )
- {
-  output_low(PIN_A2);
-  delay_ms(500);
-  output_high(PIN_A2);
-  delay_ms(500);
- }
+while (1) {
+        // Turn LED on
+        RC0 = 1;
+        // Wait for 500 milliseconds
+        __delay_ms(500);
+
+        // Turn LED off
+        RC0 = 0;
+        // Wait for 500 milliseconds
+        __delay_ms(500);
+    }
 }
