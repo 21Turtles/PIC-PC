@@ -5,11 +5,11 @@
 
 void main(void)
 {
-int z = RA6;
-int a = (RC0 * z);
-int b = (RC1 * z);
-int c = (RC2 * z);
-int d = (RC3 * z);
+int z = RA6; //Read or Write selector - 0=read 1=write
+int a = (RC0 * z); //Input 1
+int b = (RC1 * z); //Input 2
+int c = (RC2 * z); //Input 3
+int d = (RC3 * z); //Input 4
 int x = 0;
 
 //8 Byte memory
@@ -24,7 +24,9 @@ int a6 = 0; int b6 = 0; int c6 = 0; int d6 = 0; //byte 7
 int a7 = 0; int b7 = 0; int c7 = 0; int d7 = 0; //byte 8
     
 while (1) {
-
+    if (a == 1 && x==) {
+        a0
     }
+}
         
 }
