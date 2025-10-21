@@ -3,22 +3,14 @@
 #pragma config FOSC = HS
 #define _XTAL_FREQ 7372800
 
-int a
-int b
-int c
-int d
-
-int z
-
 void main(void)
 {
-        
 while (1) {
-       //forever repeating code goes here
-        if (a) {
-
-        {;
-        
+int z = RA0
+int a = (RC0 * z);
+int b = (RC1 * z);
+int c = (RC2 * z);
+int d = (RC3 * z);
     }
         
 }
