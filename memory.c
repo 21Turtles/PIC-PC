@@ -7,8 +7,8 @@
 
 void main(void)
 {
-    TRISC = 0b00001111;
-    PORTC = 0x00;
+    TRISC = 0b00001111; //First 4 Pins are set as inputs (1), last 4 are set as outputs (0)
+    PORTC = 0x00; //init all port C pins at 0
 
 int a = RC0; //Input 1
 int b = RC1; //Input 2
