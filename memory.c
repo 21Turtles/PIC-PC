@@ -1,15 +1,19 @@
 #include <stdio.h>
 #include <16F887.h>
+
 #pragma config FOSC = HS
-#define _XTAL_FREQ 7372800
+#pragma config LVP = ON //The ZEPPP programmer uses this
+#define _XTAL_FREQ 7372800 //7.3728 MHz Crystal External Oscillator
 
 void main(void)
 {
-int z = RA6; //Read or Write selector - 0=read 1=write
-int a = (RC0 * z); //Input 1
-int b = (RC1 * z); //Input 2
-int c = (RC2 * z); //Input 3
-int d = (RC3 * z); //Input 4
+    TRISC = 0b00001111;
+    PORTC = 0x00;
+
+int a = RC0; //Input 1
+int b = RC1; //Input 2
+int c = RC2; //Input 3
+int d = RC3; //Input 4
 int x = 0; //
 
 //8 Byte memory
