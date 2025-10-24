@@ -52,6 +52,11 @@ while (1) {
         b0 = b;
         c0 = c;
         d0 = d;
+        } else {
+            RC0 = a0;
+            RC1 = b0;
+            RC2 = c0;
+            RC3 = d0;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 0 && y0 == 1) {
         if (x == 1) {
@@ -59,6 +64,11 @@ while (1) {
         b1 = b;
         c1 = c;
         d1 = d;
+        } else {
+            RC0 = a1;
+            RC1 = b1;
+            RC2 = c1;
+            RC3 = d1;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 0) {
         if (x == 1) {
@@ -66,6 +76,11 @@ while (1) {
         b2 = b;
         c2 = c;
         d2 = d;
+        } else {
+            RC0 = a2;
+            RC1 = b2;
+            RC2 = c2;
+            RC3 = d2;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 1) {
         if (x == 1) {    
@@ -73,6 +88,11 @@ while (1) {
         b3 = b;
         c3 = c;
         d3 = d;
+        } else {
+            RC0 = a3;
+            RC1 = b3;
+            RC2 = c3;
+            RC3 = d3;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 0 && y0 == 0) {
         if (x == 1) {
@@ -80,6 +100,11 @@ while (1) {
         b4 = b;
         c4 = c;
         d4 = d;
+        } else {
+            RC0 = a4;
+            RC1 = b4;
+            RC2 = c4;
+            RC3 = d4; 
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 0 && y0 == 1) {
         if (x == 1) {
@@ -87,6 +112,11 @@ while (1) {
         b5 = b;
         c5 = c;
         d5 = d;
+        } else {
+            RC0 = a5;
+            RC1 = b5;
+            RC2 = c5;
+            RC3 = d5;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 1 && y0 == 0) {
         if (x == 1) {
@@ -94,6 +124,11 @@ while (1) {
         b6 = b;
         c6 = c;
         d6 = d;
+        } else {
+            RC0 = a6;
+            RC1 = b6;
+            RC2 = c6;
+            RC3 = d6;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 1 && y0 == 1) {
         if (x == 1) {
@@ -101,6 +136,11 @@ while (1) {
         b7 = b;
         c7 = c;
         d7 = d;
+        } else {
+            RC0 = a7;
+            RC1 = b7;
+            RC2 = c7;
+            RC3 = d7;
         }
     }
 
