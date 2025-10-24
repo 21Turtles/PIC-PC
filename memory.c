@@ -78,10 +78,10 @@ while (1) {
         c0 = c;
         d0 = d;
         } else {
-            RC0 = a0;
-            RC1 = b0;
-            RC2 = c0;
-            RC3 = d0;
+            o0 = a0;
+            o1 = b0;
+            o2 = c0;
+            o3 = d0;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 0 && y0 == 1) {
         if (x == 1) {
@@ -90,10 +90,10 @@ while (1) {
         c1 = c;
         d1 = d;
         } else {
-            RC0 = a1;
-            RC1 = b1;
-            RC2 = c1;
-            RC3 = d1;
+            o0 = a1;
+            o1 = b1;
+            o2 = c1;
+            o3 = d1;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 0) {
         if (x == 1) {
@@ -102,10 +102,10 @@ while (1) {
         c2 = c;
         d2 = d;
         } else {
-            RC0 = a2;
-            RC1 = b2;
-            RC2 = c2;
-            RC3 = d2;
+            o0 = a2;
+            o1 = b2;
+            o2 = c2;
+            o3 = d2;
         }
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 1) {
         if (x == 1) {    
@@ -114,10 +114,10 @@ while (1) {
         c3 = c;
         d3 = d;
         } else {
-            RC0 = a3;
-            RC1 = b3;
-            RC2 = c3;
-            RC3 = d3;
+            o0 = a3;
+            o1 = b3;
+            o2 = c3;
+            o3 = d3;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 0 && y0 == 0) {
         if (x == 1) {
@@ -126,10 +126,10 @@ while (1) {
         c4 = c;
         d4 = d;
         } else {
-            RC0 = a4;
-            RC1 = b4;
-            RC2 = c4;
-            RC3 = d4; 
+            o0 = a4;
+            o1 = b4;
+            o2 = c4;
+            o3 = d4;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 0 && y0 == 1) {
         if (x == 1) {
@@ -138,10 +138,10 @@ while (1) {
         c5 = c;
         d5 = d;
         } else {
-            RC0 = a5;
-            RC1 = b5;
-            RC2 = c5;
-            RC3 = d5;
+            o0 = a5;
+            o1 = b5;
+            o2 = c0;
+            o3 = d5;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 1 && y0 == 0) {
         if (x == 1) {
@@ -150,10 +150,10 @@ while (1) {
         c6 = c;
         d6 = d;
         } else {
-            RC0 = a6;
-            RC1 = b6;
-            RC2 = c6;
-            RC3 = d6;
+            o0 = a6;
+            o1 = b6;
+            o2 = c6;
+            o3 = d6;
         }
     } else if (y3 == 0 && y2 == 1 && y1 == 1 && y0 == 1) {
         if (x == 1) {
@@ -162,10 +162,10 @@ while (1) {
         c7 = c;
         d7 = d;
         } else {
-            RC0 = a7;
-            RC1 = b7;
-            RC2 = c7;
-            RC3 = d7;
+            o0 = a7;
+            o1 = b7;
+            o2 = c7;
+            o3 = d7;
         }
     }
 
