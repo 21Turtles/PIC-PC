@@ -26,7 +26,7 @@ int o1 = RC1; //Input 2
 int o2 = RC2; //Input 3
 int o3 = RC3; //Input 4
     
-int x = 0; //Read or Write
+int x = 0; //Read (0) or Write (1)
     
 //Memory Address Selector
 int y0 = RD4; //Selector 1
@@ -47,21 +47,26 @@ int a7 = 0; int b7 = 0; int c7 = 0; int d7 = 0; //byte 8 - Address id = 0111 7
     
 while (1) {
     if (y3 == 0 && y2 == 0 && y1 == 0 && y0 == 0) {
+        if (x == 1) {
         a0 = a;
         b0 = b;
         c0 = c;
         d0 = d;
+        }
     } else if (y3 == 0 && y2 == 0 && y1 == 0 && y0 == 1) {
+        if (x == 1) {
         a1 = a;
         b1 = b;
         c1 = c;
         d1 = d;
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 0) {
+        if (x == 1) {
         a2 = a;
         b2 = b;
         c2 = c;
         d2 = d;
     } else if (y3 == 0 && y2 == 0 && y1 == 1 && y0 == 1 {
+            
         a3 = a;
         b3 = b;
         c3 = c;
