@@ -5,6 +5,11 @@
 #pragma config LVP = ON //The ZEPPP programmer uses this
 #define _XTAL_FREQ 7372800 //7.3728 MHz Crystal External Oscillator
 
+//Write Enable Pin: RD3
+//Input Pins: RC7-RC6-RC5-RC4
+//Selector Pins: RD7-RD6-RD5-RD4
+//Output Pins: RC3-RC2-RC1-RC0
+
 void main(void)
 {
     TRISC = 0b11110000; //First 4 Pins are set as outputs (0), last 4 are set as inputs (0)
@@ -26,7 +31,7 @@ int o1 = RC1; //Input 2
 int o2 = RC2; //Input 3
 int o3 = RC3; //Input 4
     
-int x = 0; //Read (0) or Write (1)
+int x = RD3; //Read (0) or Write (1)
     
 //Memory Address Selector
 int y0 = RD4; //Selector 1
