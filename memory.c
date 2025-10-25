@@ -46,10 +46,10 @@ int d = RC7; //Input 4
 
 //Outputs is RC0,1,2,3- 4-bit
 
-int o0 = RC0; //Input 1
-int o1 = RC1; //Input 2
-int o2 = RC2; //Input 3
-int o3 = RC3; //Input 4
+int o0 = RC0; //Output 1
+int o1 = RC1; //Output 2
+int o2 = RC2; //Output 3
+int o3 = RC3; //Output 4
     
 int x = RD3; //Read (0) or Write (1)
     
